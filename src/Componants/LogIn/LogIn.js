@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import './Login.css'
 import facebook from '../../images/fb.png'
 import google from '../../images/google.png'
 import useAuth from '../../hooks/useAuth';
-import { useState } from 'react/cjs/react.development';
 import { getAuth, sendPasswordResetEmail } from "firebase/auth";
 const LogIn = () => {
 

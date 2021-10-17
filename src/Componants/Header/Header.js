@@ -85,24 +85,24 @@ const Header = () => {
                                                 <Menu.Item>
                                                     {({ active }) => (
 
-                                                        <a
-                                                            href="#/"
+                                                        <div
+
                                                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                                                         >
                                                             {user.displayName}
-                                                        </a>
+                                                        </div>
                                                     )}
                                                 </Menu.Item>
                                                 {
                                                     !user?.email ? <Menu.Item>
                                                         {({ active }) => (
 
-                                                            <NavLink to="/login"><a
-                                                                href="#/"
+                                                            <NavLink to="/login"><div
+
                                                                 className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                                                             >
                                                                 Sign In
-                                                            </a> </NavLink>
+                                                            </div> </NavLink>
 
 
                                                         )}
