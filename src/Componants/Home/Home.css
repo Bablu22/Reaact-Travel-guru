@@ -1,0 +1,36 @@
+.home{
+    background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)),url(../../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    padding: 300px 0;
+}
+.home-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.card .card-img {
+    position: relative;
+}
+.card h6{
+    color: white;
+    position: absolute;
+    top: 80%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-style: italic;
+}
+.card{
+    transition: .5s;
+}
+.card:hover .card-img img{
+    border: 2px solid rgb(199, 199, 18);
+    border-radius: 20px;
+    cursor: pointer;
+}

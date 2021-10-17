@@ -1,0 +1,20 @@
+.destination{
+    background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)),url(../../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 300px 0;
+}
+.destination-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+@media screen and (max-width:640px) {
+        .destination{
+            padding: 450px 0;
+        }
+}

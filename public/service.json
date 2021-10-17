@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "title": " Stylish apt & safe peaceful stay",
+        "features": "4 guests   2 bedrooms   2 beds 2 baths",
+        "description": "Wif Air conditioning Kitchen Cancellation fexibility availiable",
+        "star": 3.9,
+        "ratings": 20,
+        "price": 34,
+        "img": "https://i.ibb.co/KNgpY8g/Rectangle-26.png"
+    },
+    {
+        "id": 1,
+        "title": "Apartment in Lost Panorama",
+        "features": "4 guests   3 bedrooms   3 beds 3 baths",
+        "description": "Wif Air conditioning Kitchen Cancellation fexibility availiable",
+        "star": 2.8,
+        "ratings": 10,
+        "price": 52,
+        "img": "https://i.ibb.co/GxN49jb/Rectangle-27.png"
+    },
+    {
+        "id": 2,
+        "title": " Stylish apt & safe peaceful stay",
+        "features": "4 guests   2 bedrooms   2 beds 2 baths",
+        "description": "Wif Air conditioning Kitchen Cancellation fexibility availiable",
+        "star": 4.9,
+        "ratings": 25,
+        "price": 44,
+        "img": "https://i.ibb.co/9rTswLY/Rectangle-28.png"
+    },
+    {
+        "id": 3,
+        "title": "Citadines City Centre Grenoble",
+        "features": "2 guests   1 bedrooms   1 beds 1 baths",
+        "description": "Wif Air conditioning Kitchen Cancellation fexibility availiable",
+        "star": 4.2,
+        "ratings": 17,
+        "price": 27,
+        "img": "https://i.ibb.co/C7NXsW8/image.png"
+    }
+]
